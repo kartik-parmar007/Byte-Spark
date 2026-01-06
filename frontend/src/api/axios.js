@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api', // Proxy in vite.config.js handles redirection to localhost:5000
+  baseURL: 'https://byte-spark.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
